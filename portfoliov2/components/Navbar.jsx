@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
 
       <div className="fixed left-0 top-0 w-full h-screen bg-black/70">
-        <div className=" fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-dark p-10 ease-in duration-500"></div>
+        <div className=" fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-light p-10 ease-in duration-500"></div>
       </div>
     </div>
   );
