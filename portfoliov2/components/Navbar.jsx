@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
@@ -109,7 +109,7 @@ const Navbar = () => {
               </p>
               <div className=" flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedin />
+                  <FaLinkedinIn />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
