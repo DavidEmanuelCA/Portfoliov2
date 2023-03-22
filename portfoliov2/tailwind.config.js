@@ -9,6 +9,7 @@ module.exports = {
       darkslate: "#64748b",
       dark: "#171717",
       light: "#fafafa",
+      gray: "#9ca3af",
     },
     extend: {},
   },
