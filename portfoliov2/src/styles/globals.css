@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-darkslate text-pink tracking-wide;
+    @apply bg-light text-pink tracking-wide;
   }
 
   h1,
@@ -29,6 +29,6 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray rounded-xl uppercase bg-gradient-to-r from-slate to-light text-pink;
+    @apply shadow-xl shadow-gray rounded-xl uppercase bg-gradient-to-r from-slate to-darkslate text-pink;
   }
 }

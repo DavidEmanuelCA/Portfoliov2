@@ -25,23 +25,27 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className=" ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className=" ml-10 text-sm uppercase hover:border-b text-darkslate">
+                Home
+              </li>
             </Link>
             <Link href="/">
-              <li className=" ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className=" ml-10 text-sm uppercase hover:border-b text-darkslate">
+                About
+              </li>
             </Link>
             <Link href="/">
-              <li className=" ml-10 text-sm uppercase hover:border-b">
+              <li className=" ml-10 text-sm uppercase hover:border-b text-darkslate">
                 Skills
               </li>
             </Link>
             <Link href="/">
-              <li className=" ml-10 text-sm uppercase hover:border-b">
+              <li className=" ml-10 text-sm uppercase hover:border-b text-darkslate">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className=" ml-10 text-sm uppercase hover:border-b">
+              <li className=" ml-10 text-sm uppercase hover:border-b text-darkslate">
                 Contact
               </li>
             </Link>
@@ -79,14 +83,14 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray my-4">
-              <p className=" w-[85%] md:w-[90%] py-4 text-dark">
+            <div className="border-b border-slate my-4">
+              <p className=" w-[85%] md:w-[90%] py-4 text-darkslate">
                 Let's create great things together
               </p>
             </div>
           </div>
           <div className=" py-4 flex flex-col">
-            <ul className="uppercase text-dark">
+            <ul className="uppercase text-darkslate">
               <Link href="/">
                 <li className=" py-4 text-sm">Home</li>
               </Link>
@@ -108,16 +112,16 @@ const Navbar = () => {
                 Let's Connect
               </p>
               <div className=" flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiOutlineMail />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>
               </div>

@@ -8,9 +8,9 @@ const About = () => {
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-pink">About</p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-dark"></p>
-          <p className="py-2 text-dark"></p>
-          <p className="py-2 text-dark underline cursor-pointer">
+          <p className="py-2 text-darkslate"></p>
+          <p className="py-2 text-darkslate"></p>
+          <p className="py-2 text-darkslate underline cursor-pointer">
             Check out some of my latest projects
           </p>
         </div>
