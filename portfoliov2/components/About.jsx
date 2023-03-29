@@ -14,12 +14,12 @@ const About = () => {
             Check out some of my latest projects
           </p>
         </div>
-        <div>
+        <div className="relative w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
-            src="../public/assets/home.svg"
+            src="/../public/assets/profpic.svg"
             alt="/"
-            width="150"
-            height="150"
+            fill
+            className="rounded-xl"
           />
         </div>
       </div>
