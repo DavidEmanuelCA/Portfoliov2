@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+}
+
 @layer base {
   body {
     @apply bg-light text-pink tracking-wide;
@@ -29,6 +34,6 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray rounded-xl uppercase bg-gradient-to-r from-slate to-darkslate text-pink;
+    @apply shadow-xl shadow-slate rounded-xl uppercase bg-gradient-to-r from-slate to-darkslate text-pink;
   }
 }
