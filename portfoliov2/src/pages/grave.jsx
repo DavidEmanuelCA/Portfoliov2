@@ -7,15 +7,9 @@ import Link from "next/link";
 const grave = () => {
   return (
     <div className="w-full">
-      <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-dark/70 z-10" />
-        <Image
-          className="absolute"
-          fill
-          style={{ objectFit: "cover" }}
-          src={graveImg}
-          alt="/"
-        />
+      <div className="w-screen h-[50vh] relative">
+        <div className="absolute top-0 left-0 w-full h-[50vh] bg-dark/70 z-10 overflow-hidden" />
+        <Image src={graveImg} alt="/" fill style={{ objectFit: "cover" }} />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 text-pink">
           <h2 className="py-2 ">Beginner Grave Site</h2>
           <h3>HTML/ CSS / Firebase</h3>
