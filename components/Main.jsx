@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
+
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
@@ -19,16 +20,22 @@ const Main = () => {
           <p className="py-4 text-darkslate max-w-[70%] m-auto"></p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-md shadow-slate p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
+              <Link
+                target="_blank"
+                href="https://www.linkedin.com/in/demanuelca/"
+              >
+                <FaLinkedinIn />
+              </Link>
             </div>
             <div className="rounded-full shadow-md shadow-slate p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
+              <Link target="_blank" href="https://github.com/DavidEmanuelCA">
+                <FaGithub />
+              </Link>
             </div>
             <div className="rounded-full shadow-md shadow-slate p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-md shadow-slate p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
+              <Link href="/#contact">
+                <AiOutlineMail />
+              </Link>
             </div>
           </div>
         </div>

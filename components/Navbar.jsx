@@ -9,6 +9,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#fafafa");
+  const [linkColor, setLinkColor] = useState("#171717");
 
   const handleNav = () => {
     setNav(!nav);
@@ -27,6 +29,7 @@ const Navbar = () => {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
@@ -43,7 +46,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className=" ml-10 text-sm uppercase hover:border-b text-pink">
                 Home
@@ -70,7 +73,11 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className=" md:hidden">
+          <div
+            style={{ color: `${linkColor}` }}
+            onClick={handleNav}
+            className=" md:hidden"
+          >
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -139,22 +146,31 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className=" pt-32 ">
+            <div className=" pt-16 ">
               <p className=" uppercase tracking-widest text-pink">
                 Let's Connect
               </p>
               <div className=" flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/demanuelca/"
+                  >
+                    <FaLinkedinIn />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
+                  <Link
+                    target="_blank"
+                    href="https://github.com/DavidEmanuelCA"
+                  >
+                    <FaGithub />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-md shadow-slate p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                  <Link href="/#contact" onClick={() => setNav(false)}>
+                    <AiOutlineMail />
+                  </Link>
                 </div>
               </div>
             </div>
