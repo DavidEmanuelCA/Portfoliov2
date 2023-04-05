@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
 
-import skillhtml from "../public/assets/skills/html.png";
-import skillcss from "../public/assets/skills/css.png";
-import skilljavascript from "../public/assets/skills/javascript.png";
-import skillreact from "../public/assets/skills/react.png";
-import skilltailwind from "../public/assets/skills/tailwind.png";
-import skillfirebase from "../public/assets/skills/firebase.png";
-import skillgithub from "../public/assets/skills/github1.png";
-import skillnext from "../public/assets/skills/nextjs.png";
+import skillhtml from "/assets/skills/html.png";
+import skillcss from "/assets/skills/css.png";
+import skilljavascript from "/assets/skills/javascript.png";
+import skillreact from "/assets/skills/react.png";
+import skilltailwind from "/assets/skills/tailwind.png";
+import skillfirebase from "/assets/skills/firebase.png";
+import skillgithub from "/assets/skills/github1.png";
+import skillnext from "/assets/skills/nextjs.png";
 
 const Skills = () => {
   return (

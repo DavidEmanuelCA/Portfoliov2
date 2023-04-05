@@ -22,7 +22,7 @@ const About = () => {
             Reach out to me for my resume and references list. I welcome the
             opportunity to work and speak with you.
           </p>
-          <Link href="/#contact">
+          <Link href="/#projects">
             <p className="py-2 text-darkslate underline cursor-pointer">
               Check out some of my latest projects
             </p>

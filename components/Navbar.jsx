@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import cherryBlossom from "/../public/assets/cherryblossom.png";
+import cherryBlossom from "/assets/cherryblossom.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
