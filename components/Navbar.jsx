@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import cherryBlossom from "/../public/assets/cherryblossom.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -38,12 +39,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/cherryblossom.png"
-            alt="/"
-            width="60"
-            height="30"
-          />
+          <Image src={cherryBlossom} alt="/" width="60" height="30" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
